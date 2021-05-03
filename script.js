@@ -88,4 +88,13 @@ function lesson6() {
   });
 }
 
-lesson6();
+function lesson7() {
+  const form = document.getElementById('form1');
+  form.addEventListener('submit', (event) => {
+    event.preventDefault();
+    const textInput = form.elements[0];
+    alert(textInput.value);
+  })
+}
+
+lesson7();
