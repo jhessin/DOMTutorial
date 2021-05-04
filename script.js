@@ -75,7 +75,9 @@ function lesson6() {
   const button1 = document.getElementById('button1');
   button1.addEventListener('click', (event) => {
     document.getElementById('div1').innerHTML = 'Button Pressed!';
-    const { target } = event;
+    const {
+      target
+    } = event;
     if (target.innerText === 'On') {
       target.innerText = 'Off';
     } else {
@@ -96,5 +98,3 @@ function lesson7() {
     alert(textInput.value);
   })
 }
-
-lesson7();
