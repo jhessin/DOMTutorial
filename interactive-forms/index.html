@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title></title>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+  <div class='container'>
+    <form action="submit" id='saveForm'>
+      Name: <br><input type='text' class='textInput'><br>
+      Address: <br><input type='text' class='textInput'><br>
+      Age: <br><input type='text' class='textInput'><br>
+      Pets: <br><input id='petCheckbox' type='checkbox'><br>
+      <div id='petSelection'>
+        Pet: <br><select>
+          <option value='Dog'>Dog</option>
+          <option value='Cat'>Cat</option>
+          <option value='Bird'>Bird</option>
+          <option value='Other'>Other</option>
+        </select><br>
+      </div>
+      <br><input id='saveButton' type="submit" value='Save'>
+    </form>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
